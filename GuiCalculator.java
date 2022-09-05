@@ -16,7 +16,7 @@ public class GuiCalculator {
 }
 class CalculatorFrame extends JFrame {
     public CalculatorFrame() {
-        setTitle("Калькулятор java-lessons.ru");
+        setTitle("Калькулятор");
         CalculatorPanel panel = new CalculatorPanel();
         add(panel);
         pack();
